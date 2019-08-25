@@ -1,0 +1,168 @@
+
+  
+  .content {
+      display: block;
+      font-family: 'Anonymous Pro', sans-serif;
+      height: auto;
+      margin: auto;
+      position: relative;
+      text-align: center;
+      top: 40%;
+      width: -webkit-calc(70%);
+  }
+  
+  
+  .typewrite {
+    font-size: 180%;
+    border-right: 2px solid rgba(255,255,255,.75);
+    line-height: 1.15;
+ 
+  }
+  
+  .anim-typewrite {
+    animation: blinkTextCursor 500ms infinite normal;
+  }
+  
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+  
+  span.typewrite.anim-typewrite.js-typewrite {
+    color: orangered;
+    font-family: cursive;
+    font-size: 35;
+}
+h1.htxt {
+    color: #8A6F6A;
+}
+
+
+/*effect-underline*/
+a.effect-underline:after {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+a.effect-underline:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+#imgsilder{
+  padding: 0px;
+  margin: 0px;
+}
+#carousel-id{
+  padding: 0px;
+  margin: 0px;
+}
+.carousel{
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+}
+
+.carousel-item img{
+  width:100%;
+  max-height: 400px;
+}
+.container-fluid{
+  padding-right: 0px; 
+  padding-left: 0px; 
+}
+
+
+/*image slider 
+slider
+{
+display: block;
+width: 100%;
+height: 100%;
+background-color: #1f1f1f;
+overflow: hidden;
+position: absolute;
+
+}
+
+slider > *
+{
+position: absolute;
+display: block;
+width: 100%;
+height: 100%;
+background: #1f1f1f;
+animation: slide 12s infinite;
+overflow: hidden;
+}
+
+slide:nth-child(1)
+{
+  left: 0%;
+  animation-delay: -1s;
+  background-image: url(banner_1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+slide:nth-child(2)
+{
+  animation-delay: 2s;
+  background-image: url(bar.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+slide:nth-child(3)
+{
+  
+  animation-delay: 5s;
+  background-image: url(dumbel.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+slide:nth-child(4)
+{
+ 
+  animation-delay: 8s;
+  background-image: url(abs.jpg);
+  background-size: cover;
+  background-position: center;
+}
+slide 
+  {
+font-family: comfortaa;
+font-size: 70px;
+text-align: center;
+display: inline-block;
+width: 100%;
+
+color: #1fff;
+}
+
+@keyframes slide
+{
+  0%{left: 100%; width: 100%}
+  5%{left: 0%;}
+  25%{left: 0%;}
+  30%{left: -100%; width: 100%}
+  30.0001%{left: -100; width: 0%;}
+  100%{left: 100%; width: 0%;}
+}
+
+*/  
